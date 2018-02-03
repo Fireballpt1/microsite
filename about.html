@@ -1,162 +1,180 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="PT">
+
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <meta http-equiv="X-UA-Compatible" content="ie=edge">
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-
-beta.2/css/bootstrap.min.css" integrity="sha384-
-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
-crossorigin="anonymous">
- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/fontawesome.min.css"
-rel="stylesheet" integrity="sha384-
-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
- crossorigin="anonymous">
- <link rel="stylesheet" href="Ficha11css.css">
- <title>UMa Cantina</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/fontawesome.min.css">
+    <link rel="stylesheet" href="microsite.css">
+    <title>The Snug</title>
 </head>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+
 <body>
- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-
-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-crossorigin="anonymous"></script>
- <script
-src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
-integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
-crossorigin="anonymous"></script>
- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-
-beta.2/js/bootstrap.min.js" integrity="sha384-
-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
-crossorigin="anonymous"></script>
+    <div></div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
 
-<header>
-        <!-- <div class="container">
-            <nav class="navbar navbar-expand-md navbar-light bg-light">
-                <div class="container">
-                    <a class="navbar-brand" href="#">Navbar</a>
-                    
+    <header>
+
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-light bg-light px-0">
+
+                <div class="row public-banner d-none d-md-flex px-3">
+                    <a class="navbar-brand" href="index.html">
+                        <h1>
+                            <span class="cor-principal">THE</span>SNUG
+                        </h1>
+                    </a>
                 </div>
-     </nav> -->
-           
-<nav class="navbar navbar-expand-md navbar-light bg-light px-0">
-    <a class="navbar-brand" href="#">
-    <h1>
-        <span class="cor-secundaria">Public</span>
-            
-                    </h1>
-                </a>
-            <button class="navbar-toggler" type="button"
 
-            data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false"
-            aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                    aria-expanded="false" aria-label="Toggle navigation">
 
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <ul class="navbar-nav ml-auto">
-            <li class="nav-item ">
-            <a href="index.html" class="nav-link">Home</a>
-            </li>
-            <li class="divider py-2 d-none d-md-block cor-principal">/</li>
-            <li class="nav-item">
-            <a href="ficha13.html" class="nav-link">Menu</a>
-            </li>
-        <li class="divider py-2 d-none d-md-block cor-principal">/</li>
-            <li class="nav-item">
-            <a href="about.html" class="nav-link active">Acerca</a>
-            </li>
-        <li class="divider py-2 d-none d-md-block cor-principal">/</li>
-            <li class="nav-item pr-3">
-            <a href="contact.html" class="nav-link">Contato</a>
-            </li>
-        <li class="nav-item">
-            <button type="button" class="btn btn-outline-danger"
-            data-toggle="modal" data-target="#reservationmodal">
-            Reservas
-            </button>
-            </li>
-            </ul>
-            </div>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item ">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="divider py-2 d-none d-md-block cor-principal">/</li>
+                        <li class="nav-item">
+                            <a href="menu.html" class="nav-link">Fotos</a>
+                        </li>
+                        <li class="divider py-2 d-none d-md-block cor-principal">/</li>
+                        <li class="nav-item active">
+                            <a href="about.html" class="nav-link">Acerca</a>
+                        </li>
+                        <li class="divider py-2 d-none d-md-block cor-principal">/</li>
+                        <li class="nav-item ">
+                            <a href="contact.html" class="nav-link">Contato</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
-            <div class="row public-banner d-none d-md-flex px-3">
-                    <img class="w-100 h-100"
-                    src="http://www.sasuma.pt/portal/img/banner/banner2.png"
-                    width="964" height="211" alt="Uma Cantina Banner">
-                </div>
-                   
-       <br>
         </div>
-    </div>
-</div>
-<section>
-<div class="container">
-    <div class="row">
-        <div class="col-3">
-            <div class="cor-secundaria">
-            <h2> <span class="cor-tercearia">Great </span> food, <span class="cor-tercearia">Great </span> people, <span class="cor-tercearia">Great </span> times</h2>
-            </div> 
-            
-            <h5> Voluptates quas mollitia nam adipisci quidem! Animi quo sit, fugiat optio vero repellendus! Itaque hic nihil ut at inventore in excepturi a omnis iure, ipsa recusandae dolore deleniti reprehenderit aperiam esse et doloremque.</h5>
-        </div>
-        <div class="col-2"></div>
-        <div class="col-7"> Illo accusantium quibusdam veritatis, est deleniti recusandae dolore accusamus corrupti facilis saepe fugit, animi amet sunt similique. Vitae perferendis neque odit sed libero, assumenda quibusdam ab nesciunt repellat earum quas sapiente. Ratione eum nulla dignissimos tempora accusantium. Nam nemo doloribus laboriosam voluptate vel. Nam, eaque tempora voluptatum odit facilis doloremque assumenda at commodi fugiat nisi ea, recusandae magni quasi, harum magnam aspernatur numquam corrupti? Et facilis fuga expedita sequi voluptatem ipsa dignissimos est, iure laudantium nulla eum numquam, libero totam quia ratione dicta qui unde ad, beatae neque minima omnis explicabo velit! Cum veritatis, doloremque dolorem cumque delectus repudiandae laudantium, dolore optio ea voluptas expedita nam in illo minus officia ullam praesentium quod placeat excepturi neque. Debitis sit illum aliquam, placeat enim ipsam quia numquam. Minima quidem vel cum harum commodi maiores, quod dicta! Unde ex at obcaecati fugit nobis? Est consequatur fuga inventore. Vel, repellat commodi accusantium laboriosam voluptate blanditiis dicta earum. Minus, unde repellendus laborum facere consequuntur velit cumque, sint in doloribus veritatis iste error fugit iusto eaque porro nulla nesciunt dolor? Cupiditate, animi facilis delectus corrupti, aut unde ut porro ratione accusantium beatae totam quaerat neque commodi adipisci dolores et sapiente voluptatem dignissimos explicabo dolore fugit itaque. Sit, magni!
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-        </div>
-        
-    </div>
+    </header>
+  <div class="container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3359.3883092542737!2d-16.905170183995015!3d32.6491093810108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc60600f98afda21%3A0x639a4e164cd6cf21!2sThe+Snug+Madeira!5e0!3m2!1spt-PT!2spt!4v1517618252221" width="100%" height="400" frameborder="0" align="center" style="border:0;" allowfullscreen></iframe>
 </div>
 
-</section>
-
-<div class="text-center">
-        
-        <h5> Odit nobis fugit similique enim cumque velit quisquam neque.</h5>
-    </div>
-
-<footer2>
-
 <div class="container">
+    
+        <form action="#">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">Primeiro Nome</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="primeironome" placeholder="Seu Primeiro Nome..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Ultimo Nome</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="ultimonome" placeholder="Seu Ultimo Nome..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="country">Pais</label>
+            </div>
+            <div class="col-75">
+              <select id="country" name="country">
+                <option value="portugal">Portugal</option>
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Comentário</label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="Mensagem.." style="height:200px"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+      
+    <br>
+    <br>
+
+    <footer>
         <div class="container">
             <div class="col-lg-12 text-center">
-                <h3>UMa Cantina</h1>
+                <h3>The Snug</h1>
                     <br>
                     <br>
-                    <p>Rua de Santa Maria, nº 253 / Funchal / 291.123.123</p>
-                    <p>Horário: De 2ª a 6ª e Sábado das 09:00 às 14:00</p>
+                    <p>Rua do Hospital Velho 28 / Funchal / 291 220 763</p>
+                    <p>Horário: De 2ª a 6ª das 07:30 às 21:30 Sábado das 09:00 às 22:00</p>
                     <br>
                     <div class="social-media">
-                        <a href="https://www.facebook.com/">
-                            <img class="socialicon" src="https://i1.wp.com/fox-gg.com/wp-content/uploads/2016/08/square-facebook-128.png" alt="facebook">
+                        <a href="https://www.facebook.com/Thesnugmadeiraf/">
+                            <img class="socialicon" src="./img/face.png" alt="Facebook">
                         </a>
                         <i class="fa fa-facebook"></i>
                         </a>
-                        <a href="http://www.twitter.com/">
-                            <img class="socialicon" src="http://icons.iconarchive.com/icons/limav/flat-gradient-social/256/Twitter-icon.png" alt="twitter">
+                        <a href="http://picbear.com/thesnugmadeiraf">
+                            <img class="socialicon" src="./img/picbear.jpg" alt="Picbear">
                         </a>
                         <i class="fa fa-twitter"></i>
                         </a>
-                        <a href="http://www.pinterest.com/">
-                            <img class="socialicon" src="https://image.flaticon.com/icons/png/128/145/145808.png" alt="">
-                        </a>
-                        <i class="fa fa-pinterest"></i>
-                        </a>
-                        <a href="https://www.instagram.com/">
-                            <img class="socialicon" src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-instagram-new-square2-256.png"
-                                alt="">
+                        <a href="https://www.instagram.com/thesnugmadeiraf/?hl=pt">
+                            <img class="socialicon" src="./img/instagram.png" alt="Instagram">
                         </a>
                         <i class="fa fa-instagram"></i>
                         </a>
                     </div>
                     <br>
-                    <p>&copy; 2017 Universidade da Madeira</p>
+                    <p>&copy; 2018 Universidade da Madeira / João Santos</p>
             </div>
-</footer2>
+    </footer>
+
 
 
 </body>
+<script>
+
+    $(document).ready(function () {
+        $('#switcher-default').addClass(' selecionado ');
+        $('#switcher button').click(function () {
+            var bodyClass = this.id.split('-')[1];
+            $('body').removeClass().addClass(bodyClass);
+            $('#switcher button').removeClass(' selecionado ');
+            $(this).addClass(' selecionado ');
+        });
+    });
+
+</script>
+<script>
+    $('#switcher-toggle').click(function () {
+        $('#switcher').toggleClass('hidden');
+    });
+</script>
+
+<script>
+    function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+    }
+    function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+    }
+</script>
+
 </html>
